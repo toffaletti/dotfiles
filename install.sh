@@ -2,7 +2,7 @@
 
 dir=$HOME/dotfiles
 olddir=$HOME/dotfiles_old
-files="vimrc zshrc"
+files="vim vimrc zshrc"
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
