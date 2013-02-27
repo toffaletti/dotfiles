@@ -36,4 +36,5 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-source ~/dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# disabled until https://github.com/zsh-users/zsh-syntax-highlighting/issues/108 is fixed
+#source ~/dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
